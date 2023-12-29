@@ -36,7 +36,7 @@
                   <input type="checkbox"><span class="label-text">Tetap masuk</span>
                 </label>
               </div>
-              {{-- <p class="semibold-text mb-2"><a href="{{route('register')}}">Register</a></p> --}}
+              <p class="semibold-text mb-2"><a href="{{route('password.request')}}">Lupa password ?</a></p>
             </div>
           </div>
           <div class="form-group btn-container">

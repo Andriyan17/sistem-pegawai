@@ -47,7 +47,6 @@ Route::middleware('auth')->group(function () {
     Route::resource('negara', NegaraController::class);
     Route::resource('darah', GolonganDarahController::class);
     Route::resource('keluarga', KeluargaController::class);
-    Route::get('/user/{id}', [UserController::class, 'show']);
     Route::get('pegawai/pelatihan/{id}',[PelatihanController::class,'pel']);
     Route::resource('pegawai.pelatihan', PelatihanController::class);
     Route::get('pegawai/pendidikan/{id}',[PendidikanController::class,'pel']);
